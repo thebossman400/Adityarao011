@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikram Pitch Report - Telegram King</title>
+    
+    <!-- Google Fonts for Premium Look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- 1. META PIXEL CODE (Replace YOUR_PIXEL_ID with your actual pixel id) -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1780949959943830'); // <-- Apne Pixel ID se badlein
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1780949959943830&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- END META PIXEL CODE -->
+
+    <style>
+        :root {
+            --bg-color: #0b0c10;
+            --card-bg: #151a26;
+            --accent-gold: #ffc107;
+            --text-gold: #f4c430;
+            --btn-blue: #00a2ff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 15px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 450px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Badge Styling */
+        .badge {
+            border: 1px solid var(--accent-gold);
+            color: var(--accent-gold);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+        }
+
+        /* Profile Image with Glow */
+        .profile-container {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 15px auto;
+        }
+
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--accent-gold);
+            box-shadow: 0 0 25px rgba(254, 193, 7, 0.4);
+        }
+
+        /* Typography */
+        h1 {
+            color: var(--text-gold);
+            font-size: 28px;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            color: #a0a5b5;
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 25px;
+        }
+
+        .stat-card {
+            background-color: var(--card-bg);
+            padding: 12px 5px;
+            border-radius: 10px;
+        }
+
+        .stat-num {
+            color: var(--accent-gold);
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        .stat-label {
+            color: #7e869a;
+            font-size: 12px;
+            margin-top: 2px;
+        }
+
+        /* Features List */
+        .features-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+
+        .feature-item {
+            background-color: var(--card-bg);
+            padding: 14px 20px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-align: left;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .feature-icon {
+            font-size: 18px;
+        }
+
+        /* Pulsing CTA Button */
+        .cta-btn {
+            display: block;
+            background: linear-gradient(90deg, #0088cc, var(--btn-blue));
+            color: white;
+            text-decoration: none;
+            padding: 16px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            box-shadow: 0 4px 15px rgba(0, 162, 255, 0.4);
+            transition: transform 0.2s ease;
+            animation: pulse 1.8s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 4px 15px rgba(0, 162, 255, 0.4); }
+            50% { transform: scale(1.03); box-shadow: 0 4px 25px rgba(0, 162, 255, 0.7); }
+            100% { transform: scale(1); box-shadow: 0 4px 15px rgba(0, 162, 255, 0.4); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Top Badge -->
+        <div class="badge">🏏 India's Elite Cricket Community</div>
+
+        <!-- Profile Pic -->
+        <div class="profile-container">
+            <!-- Apni image lagayein yahan -->
+            <img src="YOUR_IMAGE_URL_HERE" alt="Vikram Pitch Report" class="profile-img">
+        </div>
+
+        <!-- Headings -->
+        <h1>Vikram Pitch Report</h1>
+        <div class="subtitle">Telegram King 👑</div>
+
+        <!-- Stats Grid -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-num">89%+</div>
+                <div class="stat-label">Accuracy</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num">75K+</div>
+                <div class="stat-label">Members</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num">Daily</div>
+                <div class="stat-label">Tips</div>
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="features-list">
+            <div class="feature-item">
+                <span class="feature-icon">📈</span>
+                <span>Match Winner Predictions</span>
+            </div>
+            <div class="feature-item">
+                <span class="feature-icon">🎯</span>
+                <span>Premium Session Calls</span>
+            </div>
+            <div class="feature-item">
+                <span class="feature-icon">⛈️</span>
+                <span>Pitch & Weather Analysis</span>
+            </div>
+            <div class="feature-item">
+                <span class="feature-icon">⚡</span>
+                <span>Fast Entry / Exit Updates</span>
+            </div>
+        </div>
+
+        <!-- CTA Button with tracking -->
+        <a href="https://t.me/+zRB4r9sVu705YTg1" class="cta-btn" id="joinBtn">
+            Join VIP Channel
+        </a>
+    </div>
+
+    <!-- 2. PIXEL EVENT TRACKING SCRIPT -->
+    <script>
+        document.getElementById('joinBtn').addEventListener('click', function(e) {
+            // Meta Ads ko 'Lead' event bhej rahe hain
+            if (typeof fbq !== 'undefined') {
+                fbq('track', 'Lead', {
+                    content_name: 'Telegram VIP Join',
+                    content_category: 'Telegram Button Click'
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>
